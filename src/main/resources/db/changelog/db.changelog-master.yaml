@@ -1,3 +1,5 @@
 databaseChangeLog:
   - include:
       file: db/changelog/createPerson.yaml
+  - include:
+      file: db/changelog/addPersonArun.yaml

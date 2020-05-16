@@ -1,0 +1,17 @@
+databaseChangeLog:
+  - changeSet:
+      id:  insert-person-arun
+      author:  arun
+      changes:
+        -  insert:
+             columns:
+               -  column:
+                    name:  id
+                    value:  1
+               -  column:
+                    name:  name
+                    value:  Arun
+               -  column:
+                    name:  age
+                    value:  78
+             tableName:  person
